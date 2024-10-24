@@ -1,0 +1,318 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+   
+}
+header{
+    background-color: #77dd77;
+    
+    
+}
+header img{
+    width: 100px;    
+    padding: 19%;
+   
+}
+
+nav a{
+    text-decoration: none;
+}
+.nav-bar {
+   
+    display: flex; 
+    padding-top: 4%;
+    
+   
+
+}
+ul li {
+    margin-right: 30px; 
+    list-style-type: none;
+    
+   
+}
+
+.button{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 8px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkgray;
+}
+.button:focus{
+    background-color: blueviolet;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    color: black;
+}
+   
+
+
+.color1{color: black;}
+.color2{color: green;}
+
+
+/*section principale */ /*section principale */ /*section principale */ /*section principale */ /*section principale */
+
+
+.sectionprincipale{
+    background-color: #77dd77;
+    display: flex;
+   padding: 80px;
+}
+
+section img {
+    width :400px;
+    height:420px;
+    padding-left: 50px;
+}
+#a{
+    font-weight: bold;
+}
+p{
+    
+    font-size: large;
+}
+.xbutton{
+    color:white;
+    background-color: green;
+    border-radius: 50px;
+    padding: 10px;
+    position: relative;
+    left: 480px;
+    top: 12px;
+   text-decoration: none;
+    
+}  
+h1{
+    padding-top: 2%;
+    
+}
+#clique{
+    position: relative;
+    top: 30px;
+}
+/* section nmr 02 *//* section nmr 02 *//* section nmr 02 *//* section nmr 02 */
+.section2{
+    padding: 100px;
+    background-color: #D3D3D3;
+}
+#navtitre{
+    text-align: center;
+    color:darkgreen;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.containerX1{
+    position: relative;
+   
+}
+.containerX1 img{
+   height: 380px;
+    width: 280px;
+   
+    
+}
+.enf1{
+    position: absolute;
+    bottom: 1120px;
+    left:42px;
+    
+}
+.enf1 img {
+    height: 200px;
+    width: 200px
+    
+    
+    
+    }
+
+.enf2{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left:65px;
+    color:white;
+    background-color:#50C878;
+    border-radius: 30px;
+    padding: 3px;
+   text-decoration: none;
+   
+}
+
+.containerX2{
+    position: relative;
+    left: 355px;
+}
+.containerX2 img{
+   height: 380px;
+    width: 280px;
+    
+}
+.enf1-2{
+    position: absolute;
+    bottom: 739px;
+    left:42px;
+    
+}
+.enf1-2 img {
+    height: 200px;
+    width: 200px;
+    
+    
+    
+    
+    }
+
+.enf2-2{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left:65px;
+    color:white;
+    background-color:#50C878;
+    border-radius: 30px;
+    padding: 3px;
+   text-decoration: none;
+   
+}
+
+
+.containerX3{
+    position: relative;
+    left: 350px;
+    bottom: 768px;
+}
+.containerX3 img{
+   height: 380px;
+    width: 280px;
+    
+}
+.enf1-3{
+    position: absolute;
+    bottom: 350px;
+    left:42px;
+    
+}
+.enf1-3 img {
+    height: 200px;
+    width: 200px
+    
+    
+    
+    }
+
+.enf2-3{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left:65px;
+    color:white;
+    background-color:#50C878;
+    border-radius: 30px;
+    padding: 3px;
+   text-decoration: none;
+   
+}
+#xx{
+    position:relative;
+    right: 690px;
+}
+#yy{
+    position: relative;
+    right: 308px;
+    bottom: 330px;
+    text-decoration: underline;
+   
+}
+#yy li{
+    padding: 10px;
+}
+/* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 *//* secton 3 */
+
+.section3{
+    background-color:#F0E68C;
+    padding: 3%;
+}
+#navtitre2{
+    text-align: center;
+    color:darkgreen;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+.section3 img{
+    width: 180px;
+    height: 180px;
+}
+.containergrid{
+    display: grid;
+    grid-template-columns:190px 190px 190px  ;
+}
+#msggal{
+    position: relative;
+    left: 850px;
+    bottom: 590px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    
+
+   
+}
+/* section 4 *//* section 4 *//* section 4 *//* section 4 *//* section 4 *//* section 4 *//* section 4 *//* section 4 */
+.section4{
+    padding: 3%;
+    background-color: pink;
+}
+#navtitre3{
+    text-align: center;
+    color:darkgreen;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+table{
+    position: relative;
+    left: 440px;
+}
+#inf{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+#info{
+    padding: 1%;
+}
+#s{
+    text-align: center;
+    padding: 3px;
+}
+#contactt{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 460px;
+    bottom: 10px;
+}
